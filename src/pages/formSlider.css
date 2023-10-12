@@ -1,0 +1,71 @@
+.form-page {
+  display: flex;
+  width: 100%;
+}
+
+.form-body {
+  width: 80%; /* 20% width of the screen */
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed; /* Fix the sidebar in place */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  padding-left: 80px;
+}
+
+.form-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.control-container {
+  margin-right: 40px;
+  margin-bottom: 70px;
+}
+
+.arrow-button {
+  background-color: #01264a;
+  border: none; /* Remove the default button border */
+  padding: 4px 8px; /* Add padding inside the button */
+  cursor: pointer;
+}
+
+.arrow-up {
+  border-radius: 8px 0px 0px 8px;
+}
+
+.arrow-down {
+  border-radius: 0px 8px 8px 0px;
+}
+
+.arrow-icon {
+  font-size: 35px; /* Increase the size of the icon */
+  color: white; /* Change the icon color to match your design */
+  padding: 1px 10px;
+}
+
+.form-title {
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #01264a;
+  margin-bottom: 50px;
+}
+
+.top-right-form {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 85px;
+  margin-top: 25px;
+}
